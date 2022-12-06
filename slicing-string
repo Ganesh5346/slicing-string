@@ -1,0 +1,10 @@
+a = input("Str: ")
+b = int(input("num: "))
+if b >= 0:
+    i = 0
+    while i in range(b):
+        i += 1
+        print("result: ", (a[0:b]*b), end="")
+        break
+else:
+    print("not defined")
